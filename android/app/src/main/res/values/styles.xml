@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplicado mientras arranca la app (modo claro) -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Fondo nativo mostrado hasta que Flutter dibuje su primer frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Tema normal después del arranque -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- deja que Flutter renderice su fondo; usar el background del sistema -->
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

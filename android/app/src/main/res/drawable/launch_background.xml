@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo inmediato usando el color primario definido en values/colors.xml -->
+    <item android:drawable="@color/primary_color" />
+
+    <!-- Logo centrado (usa tu mipmap existente) -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher" />
+    </item>
+
+</layer-list>

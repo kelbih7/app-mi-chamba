@@ -1,0 +1,40 @@
+name: mi_semana
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  app_settings: ^6.1.1
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^19.4.2
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  path: ^1.8.5
+  path_provider: ^2.0.15
+  permission_handler: ^12.0.1
+  provider: ^6.0.0
+  shared_preferences: ^2.2.2
+  sqflite: ^2.2.8+4
+  table_calendar: ^3.0.8
+  timezone: ^0.10.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  min_sdk_android: 28

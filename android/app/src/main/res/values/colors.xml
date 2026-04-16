@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Este color se sincroniza con tu ThemesApp.primary -->
+    <color name="primary_color">#1565C0</color> <!-- Azul 800 -->
+    <color name="primary_light_color">#1976D2</color> <!-- Azul 700 -->
+    <color name="background_dark">#212121</color> <!-- Gris oscuro -->
+    <color name="background_light">#E0E0E0</color> <!-- Gris claro -->
+</resources>
