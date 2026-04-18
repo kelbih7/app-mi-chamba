@@ -6,8 +6,8 @@ class CalendarUiConstants {
   static final Color pendingColor = Colors.orange;
 
   // Selección
-  static final Color selectedDayColor = Colors.lightGreen;
-  static final Color todayColor = Colors.blueAccent;
+  static final Color selectedDayColor = Colors.blueGrey;
+  static final Color todayColor = Colors.lightBlue;
 
   // Colores por semana
   static final List<Color> weekColors = [

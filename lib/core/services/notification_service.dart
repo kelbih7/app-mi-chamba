@@ -50,7 +50,7 @@ class NotificationService {
     }
 
     const androidSettings = AndroidInitializationSettings(
-      '@mipmap/ic_launcher',
+      '@drawable/ic_stat_notification',
     );
 
     const settings = InitializationSettings(android: androidSettings);
@@ -131,6 +131,7 @@ class NotificationService {
         channelDescription: _dailyChannelDescription,
         importance: Importance.high,
         priority: Priority.high,
+        icon: '@drawable/ic_stat_notification',
       );
 
       final details = NotificationDetails(android: androidDetails);
