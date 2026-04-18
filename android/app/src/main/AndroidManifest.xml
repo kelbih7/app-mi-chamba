@@ -19,7 +19,7 @@
     <application
         android:name="${applicationName}"
         android:label="Mi Chamba"
-        android:icon="@mipmap/launcher_icon"
+        android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true"
         android:allowBackup="true"
         android:fullBackupContent="true">

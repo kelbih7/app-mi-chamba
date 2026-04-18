@@ -125,7 +125,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Mi Semana',
+                      'Mi Chamba',
                       style: TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.w800,

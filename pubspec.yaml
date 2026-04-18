@@ -1,5 +1,5 @@
 name: mi_semana
-description: "A new Flutter project."
+description: "App de control semanal y recordatorios"
 publish_to: 'none'
 version: 0.1.0
 
@@ -24,6 +24,7 @@ dependencies:
   timezone: ^0.10.0
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
@@ -34,7 +35,9 @@ flutter:
     - assets/images/
 
 flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/icon.png"
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#1E5AA8"
+  adaptive_icon_foreground: "assets/images/app_icon.png"
   min_sdk_android: 28
