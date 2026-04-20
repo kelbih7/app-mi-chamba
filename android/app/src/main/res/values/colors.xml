@@ -5,5 +5,5 @@
     <color name="primary_light_color">#1976D2</color> <!-- Azul 700 -->
     <color name="background_dark">#212121</color> <!-- Gris oscuro -->
     <color name="background_light">#E0E0E0</color> <!-- Gris claro -->
-	<color name="ic_launcher_background">#1E5AA8</color>
+	<color name="ic_launcher_background">#00838F</color>
 </resources>

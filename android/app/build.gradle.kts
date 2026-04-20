@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mi_semana"
+    namespace = "com.devkelbih.michamba"
     compileSdk = 36
     ndkVersion = "27.0.12077973"
 
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.mi_semana"
+        applicationId = "com.devkelbih.michamba"
         minSdk = 28
         targetSdk = 35
         versionCode = flutter.versionCode?.toInt() ?: 1

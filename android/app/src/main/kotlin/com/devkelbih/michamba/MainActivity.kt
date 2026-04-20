@@ -1,4 +1,4 @@
-package com.example.mi_semana
+package com.devkelbih.michamba
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,10 +11,10 @@ class MainActivity : FlutterActivity() {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
         startActivity(intent)
         finish()
-        return // 👈 evita que Flutter inicialice dos veces
+        return // evita que Flutter inicialice dos veces
     }
 
-    super.onCreate(null) // 👈 forzamos inicio limpio del engine
+    super.onCreate(null) // forzamos inicio limpio del engine
 }
 
 }

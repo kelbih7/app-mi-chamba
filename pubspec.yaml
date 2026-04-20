@@ -25,6 +25,7 @@ dependencies:
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.0.0
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
@@ -38,6 +39,16 @@ flutter_launcher_icons:
   android: true
   ios: false
   image_path: "assets/images/icon.png"
-  adaptive_icon_background: "#1E5AA8"
+  adaptive_icon_background: "#00838F"
   adaptive_icon_foreground: "assets/images/icon.png"
   min_sdk_android: 28
+
+flutter_native_splash:
+  color: "#00838F" 
+  image: assets/images/icon.png
+
+  android: true
+  ios: true
+
+  android_gravity: center
+  ios_content_mode: center
