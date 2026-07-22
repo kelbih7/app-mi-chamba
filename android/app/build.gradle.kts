@@ -32,7 +32,7 @@ android {
     defaultConfig {
         applicationId = "com.devkelbih.michamba"
         minSdk = 28
-        targetSdk = 35
+        targetSdk = 36
         versionCode = flutter.versionCode?.toInt() ?: 1
         versionName = flutter.versionName ?: "1.0.0"
     }
