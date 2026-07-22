@@ -81,7 +81,16 @@ Future<void> main() async {
 
   // Forzar orientación vertical
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-
+  // CONFIGURACIÓN BORDE A BORDE (EDGE-TO-EDGE) PARA ANDROID 15+
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      systemNavigationBarColor: Colors.transparent,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarIconBrightness: Brightness.dark,
+    ),
+  );
   // Inicializar zonas horarias
   tz.initializeTimeZones();
   tz.setLocalLocation(tz.getLocation('America/Lima'));
